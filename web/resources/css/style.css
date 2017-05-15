@@ -11,7 +11,9 @@ body {
     background: #DCE35B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
+    color: #A1FFCE;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
     border-bottom: solid 1px blue;
@@ -40,10 +42,11 @@ td, th {
 #menu {
     float: right;
     width: 150px;
-    border: solid 1px gray;
     padding: 5px;
-    color: blue;
-    background-color: white;
+    color: white;
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-left: 20px;
 }
 #content {
