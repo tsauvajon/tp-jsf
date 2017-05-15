@@ -25,11 +25,11 @@ width: 800px;
 margin: 0 auto;
 }
 #header {
-border: solid 1px blue;
-padding: 5px;
 size: large;
-color: blue;
-background-color: #c8bfbf;
+color: white;
+background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 margin-bottom: 20px;
 }
 #menu {
@@ -44,11 +44,11 @@ margin-left: 20px;
 #content {
 }
 #footer {
-border: solid 1px blue;
-padding: 5px;
 size: small;
-color: blue;
-background-color: #c8bfbf;
+color: white;
+background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 margin-top: 20px;
 }
 .alert {
