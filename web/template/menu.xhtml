@@ -7,9 +7,11 @@
       xmlns:ui="http://java.sun.com/jsf/facelets">
     <ui:composition>
         <div>Menu :</div>
+        <h:form>
         <ul>
-            <li>lien 1</li>
-            <li>lien 2</li>
+            <li><h:commandLink action="hello">Hello</h:commandLink></li>
+            <li><h:commandLink action="bye">Bye</h:commandLink></li>
         </ul>
+        </h:form>
     </ui:composition>
 </html>
