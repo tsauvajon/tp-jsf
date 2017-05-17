@@ -6,12 +6,13 @@
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:ui="http://java.sun.com/jsf/facelets">
     <ui:composition>
+        <h:form>
         <h5 class="white-text">Menu</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="#!"><h:commandLink action="hello?faces-redirect=true"
-                                   value="Hello" /></a></li>
-          <li><a class="grey-text text-lighten-3" href="#!"><h:commandLink action="bye?faces-redirect=true"
-                                   value="Bye" /></a></li>
+          <li><h:commandLink action="hello?faces-redirect=true" class="grey-text text-lighten-3"
+                                   value="Hello" /></li>
+          <li><h:commandLink action="bye?faces-redirect=true" class="grey-text text-lighten-3"
+                                   value="Bye" /></li>
           <li><a class="grey-text text-lighten-3" href="#!">Lien 3</a></li>
           <li><a class="grey-text text-lighten-3" href="#!">Lien 4</a></li>
         </ul>
