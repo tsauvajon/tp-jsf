@@ -5,15 +5,16 @@
  */
 package sauvaechler;
 
-import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.inject.Named;
 
 /**
  *
  * @author thomas.sauvajon
  */
-//@Named(value = "navigation")
-//@Dependent
-@ManagedBean
+@Named(value = "navigation")
+@SessionScoped
+//@ManagedBean
 public class Navigation {
 
     /**
