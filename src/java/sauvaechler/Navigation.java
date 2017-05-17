@@ -5,7 +5,8 @@
  */
 package sauvaechler;
 
-import javax.faces.bean.SessionScoped;
+import java.io.Serializable;
+import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 
 /**
@@ -15,7 +16,7 @@ import javax.inject.Named;
 @Named(value = "navigation")
 @SessionScoped
 //@ManagedBean
-public class Navigation {
+public class Navigation implements Serializable{
 
     /**
      * Creates a new instance of Navigation
