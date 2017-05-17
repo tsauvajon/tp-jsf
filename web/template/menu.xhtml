@@ -8,8 +8,10 @@
     <ui:composition>
         <h5 class="white-text">Menu</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="#!"><h:commandLink action="hello">Hello</h:commandLink></a></li>
-          <li><a class="grey-text text-lighten-3" href="#!"><h:commandLink action="bye">Bye</h:commandLink></a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"><h:commandLink action="hello?faces-redirect=true"
+                                   value="Hello" /></a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"><h:commandLink action="bye?faces-redirect=true"
+                                   value="Bye" /></a></li>
           <li><a class="grey-text text-lighten-3" href="#!">Lien 3</a></li>
           <li><a class="grey-text text-lighten-3" href="#!">Lien 4</a></li>
         </ul>
