@@ -8,12 +8,11 @@
     <h:body>
         <ui:composition template="/template/mylayout.xhtml">
             <ui:define name="content">
-                <f:loadBundle basename="sauvaechler.resources.messages" var="msg" />
                 <h1>
-                    <h:outputText value="#{msg.helloWorld}" />
+                    <h:outputText value="#{messages.helloWorld}" />
                 </h1>
             </ui:define>
-            <ui:define name="title">Hello v3</ui:define>
+            <ui:define name="title">Hello v4</ui:define>
         </ui:composition>
     </h:body>
 </html>
