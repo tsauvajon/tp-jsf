@@ -16,12 +16,11 @@
         <div class="page">
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">Sauvaechler</a>
-<!--                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li>menu 1</li>
-                        <li>menu 2</li>
-                        <li>menu 3</li>
-                    </ul>-->
+                    <a href="#" class="brand-logo center">Sauvaechler</a>
+
+                            <ui:insert name="menu">
+                                <ui:include src="/template/menu.xhtml" />
+                            </ui:insert>
                 </div>
             </nav>
             <!--                <ui:insert name="header">
@@ -42,6 +41,7 @@
                             <p class="grey-text text-lighten-4">Ce projet fut réalisé avec soin et patience.</p>
                         </div>
                         <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Menu</h5>
                             <ui:insert name="menu">
                                 <ui:include src="/template/menu.xhtml" />
                             </ui:insert>
@@ -51,7 +51,7 @@
                 <div class="footer-copyright">
                     <div class="container">
                         © 2017 Sauvajon / Baechler
-                        <a class="grey-text text-lighten-4 right" href="#!">Woohoo</a>
+                        <a class="grey-text text-lighten-4 right" href="#!">20/20</a>
                     </div>
                 </div>
             </footer>
