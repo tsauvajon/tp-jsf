@@ -8,10 +8,12 @@
     <ui:composition>
         <div>Menu :</div>
         <h:form>
-        <ul>
-            <li><h:commandLink action="hello">Hello</h:commandLink></li>
-            <li><h:commandLink action="bye">Bye</h:commandLink></li>
-        </ul>
+            <ul>
+                <li><h:commandLink action="hello?faces-redirect=true"
+                                   value="Hello" /></li>
+                <li><h:commandLink action="bye?faces-redirect=true"
+                                   value="Bye" /></li>
+            </ul>
         </h:form>
     </ui:composition>
 </html>
